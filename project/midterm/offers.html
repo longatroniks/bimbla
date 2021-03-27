@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <title>BIMBLA | Pizza time!</title>
+    <link rel="shortcut icon" href="./assets/media/smalllogo.png">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous" />
+
+    <!-- Javascript -->
+    <script src="./assets/javascript/script.js" defer></script>
+    <script src="https://kit.fontawesome.com/1ff2b5277e.js" crossorigin="anonymous">
+    </script>
+</head>
+
+<body>
+    <!-- Navigation bar  -->
+    <div id="mySidenav" class="sidenav">
+        <a id="close" href="javascript:void(0)" class="closebtn">&times;</a>
+        <a href="./offers.html">Offers</a>
+        <a href="./pizzamaker.html">Maker</a>
+        <a href="./tracker.html">Tracker</a>
+        <a href="./locations.html">Locations</a>
+        <a href="./careers.html">Careers</a>
+        <a href="./references.html">References</a>
+        <a href="./rubrics.html">Rubrics</a>
+    </div>
+
+    <nav id="menu" class="d-flex navbar navbar-light position-fixed w-100 justify-content-end">
+
+        <div class="container-fluid">
+            <a class="navbar-brand" href="./index.html">
+                <img src="assets/media/smalllogo.png" alt="My logo" height="45" width="45" />
+            </a>
+            <button id="navbarToggleExternalContent" class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent"
+                aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+        </div>
+    </nav>
+
+    <div id="home"></div>
+
+    <!-- Jumbotron -->
+
+    <div class="d-flex justify-content-center align-items-center min-vh-100 ">
+        <div class="jumbotron overridewidth bg-lightbrown">
+            <img id="bigsimbla" class="img-fluid" src="./assets/media/image1.png" alt="fakeimage" />
+            <img id="smallsimbla" class="img-fluid" src="./assets/media/smallsimbla.png" alt="fakeimage" />
+            <div class="d-flex justify-content-center align-items-center">
+                <button class="btn btn-red" data-container="body" data-toggle="popover" data-placement="top"
+                    data-content="When PHP is added, this will be added to the order onclick.">Add
+                    to order</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Menu -->
+
+    <div class="d-flex justify-content-center align-items-center flex-column mb-5 pb-7">
+        <div class="accordion w-85" id="accordionExample">
+            <div class="card w-85">
+                <div class="card-header bg-brown" id="headingOne">
+                    <h5 class="mb-0">
+                        <button class="btn btn-red" data-toggle="collapse" data-target="#collapseOne"
+                            aria-expanded="true" aria-controls="collapseOne">
+                            Pizzas
+                        </button>
+                    </h5>
+                </div>
+
+                <div id="collapseOne" class="collapse show" aria-labelledby="headingOne"
+                    data-parent="#accordionExample">
+
+                    <!-- First row -->
+
+                    <div class="d-flex card-body card-deck justify-content-between align-items-center">
+
+                        <div class="card hovereffect" data-container="body" data-toggle="popover" data-placement="top"
+                            data-content="When PHP is added, this will be added to the order onclick.">
+                            <img src="./assets/media/marga.png" class="card-img-top" alt="...">
+                            <div class="card-body bg-red radius-bottom">
+                                <h5 class="card-title">BIMBLA</h5>
+                                <p class="card-text">Or you could just get one with toppings on it.</p>
+                            </div>
+                        </div>
+
+                        <div class="card hovereffect" data-container="body" data-toggle="popover" data-placement="top"
+                            data-content="When PHP is added, this will be added to the order onclick.">
+                            <img src="./assets/media/pepperonii.png" class="card-img-top" alt="...">
+                            <div class="card-body bg-red radius-bottom">
+                                <h5 class="card-title">PIMBLA</h5>
+                                <p class="card-text">The REAL classic, don't listen to the others.</p>
+                            </div>
+                        </div>
+                        <div class="card hovereffect" data-container="body" data-toggle="popover" data-placement="top"
+                            data-content="When PHP is added, this will be added to the order onclick.">
+                            <img src="./assets/media/brocolli.png" class="card-img-top" alt="...">
+                            <div class="card-body bg-red radius-bottom">
+                                <h5 class="card-title">VIMBLA</h5>
+                                <p class="card-text">Don't order pizza if you want to be healthy.</p>
+                            </div>
+                        </div>
+                        <div class="card hovereffect" data-container="body" data-toggle="popover" data-placement="top"
+                            data-content="When PHP is added, this will be added to the order onclick.">
+                            <img src="./assets/media/hammy.png" class="card-img-top" alt="...">
+                            <div class="card-body bg-red radius-bottom">
+                                <h5 class="card-title">HIMBLA</h5>
+                                <p class="card-text">It really is tasty despite the looks of it.</p>
+                            </div>
+                        </div>
+
+
+                    </div>
+
+                    <!-- Second row -->
+
+                    <div class="d-flex card-body card-deck justify-content-between align-items-center">
+
+                        <div class="card hovereffect" data-container="body" data-toggle="popover" data-placement="top"
+                            data-content="When PHP is added, this will be added to the order onclick.">
+                            <img src="./assets/media/meatlover.png" class="card-img-top" alt="...">
+                            <div class="card-body bg-red radius-bottom">
+                                <h5 class="card-title">MIMBLA</h5>
+                                <p class="card-text">Just say you want the one with meat on it.</p>
+                            </div>
+                        </div>
+
+                        <div class="card hovereffect" data-container="body" data-toggle="popover" data-placement="top"
+                            data-content="When PHP is added, this will be added to the order onclick.">
+                            <img src="./assets/media/quattro.png" class="card-img-top" alt="...">
+                            <div class="card-body bg-red radius-bottom">
+                                <h5 class="card-title">QIMBLA</h5>
+                                <p class="card-text">It's pronounced like "kimbla", but more q-ish.</p>
+                            </div>
+                        </div>
+                        <div class="card hovereffect" data-container="body" data-toggle="popover" data-placement="top"
+                            data-content="When PHP is added, this will be added to the order onclick.">
+                            <img src="./assets/media/pineapple.png" class="card-img-top" alt="...">
+                            <div class="card-body bg-red radius-bottom">
+                                <h5 class="card-title">AIMBLA</h5>
+                                <p class="card-text">Sure, get this one if you want... weirdo.</p>
+                            </div>
+                        </div>
+                        <div class="card hovereffect" data-container="body" data-toggle="popover" data-placement="top"
+                            data-content="When PHP is added, this will be added to the order onclick.">
+                            <img src="./assets/media/calzone.png" class="card-img-top" alt="...">
+                            <div class="card-body bg-red radius-bottom">
+                                <h5 class="card-title">CIMBLA</h5>
+                                <p class="card-text">Either this, or take a regular one and sandwich it.</p>
+                            </div>
+                        </div>
+
+
+                    </div>
+
+                </div>
+            </div>
+            <div class="card w-85">
+                <div class="card-header bg-brown" id="headingTwo">
+                    <h5 class="mb-0">
+                        <button class="btn btn-red collapsed" type="button" data-toggle="collapse"
+                            data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                            Deserts
+                        </button>
+                    </h5>
+                </div>
+                <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+
+                    <!-- First row -->
+
+                    <div class="d-flex card-body card-deck justify-content-between align-items-center radius-bottom">
+
+                        <div class="card hovereffect" data-container="body" data-toggle="popover" data-placement="top"
+                            data-content="When PHP is added, this will be added to the order onclick.">
+                            <img src="./assets/media/pancake.png" class="card-img-top" alt="...">
+                            <div class="card-body bg-red radius-bottom">
+                                <h5 class="card-title">Pancakes</h5>
+                                <p class="card-text">For if you're feeling extra fat today.</p>
+                            </div>
+                        </div>
+
+                        <div class="card hovereffect" data-container="body" data-toggle="popover" data-placement="top"
+                            data-content="When PHP is added, this will be added to the order onclick.">
+                            <img src="./assets/media/brownie.png" class="card-img-top" alt="...">
+                            <div class="card-body bg-red radius-bottom">
+                                <h5 class="card-title">Brownies</h5>
+                                <p class="card-text">Steaming hot, fresh out of the freez- oven.</p>
+                            </div>
+                        </div>
+                        <div class="card hovereffect" data-container="body" data-toggle="popover" data-placement="top"
+                            data-content="When PHP is added, this will be added to the order onclick.">
+                            <img src="./assets/media/donuts.png" class="card-img-top" alt="...">
+                            <div class="card-body bg-red radius-bottom">
+                                <h5 class="card-title">Donuts</h5>
+                                <p class="card-text">Do or do nut get these, looooooooool.</p>
+                            </div>
+                        </div>
+                        <div class="card hovereffect" data-container="body" data-toggle="popover" data-placement="top"
+                            data-content="When PHP is added, this will be added to the order onclick.">
+                            <img src="./assets/media/tiramisu.png" class="card-img-top" alt="...">
+                            <div class="card-body bg-red radius-bottom">
+                                <h5 class="card-title">Tiramisu</h5>
+                                <p class="card-text">No one even orders this, please start.</p>
+                            </div>
+                        </div>
+
+
+                    </div>
+
+                </div>
+            </div>
+            <div class="card w-85">
+                <div class="card-header bg-brown" id="headingThree">
+                    <h5 class="mb-0">
+                        <button class="btn btn-red collapsed" type="button" data-toggle="collapse"
+                            data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                            Drinks
+                        </button>
+                    </h5>
+                </div>
+                <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+                    <!-- First row -->
+
+                    <div class="d-flex card-body card-deck justify-content-between align-items-center radius-bottom">
+
+                        <div class="card hovereffect" data-container="body" data-toggle="popover" data-placement="top"
+                            data-content="When PHP is added, this will be added to the order onclick.">
+                            <img src="./assets/media/cola.png" class="card-img-top" alt="...">
+                            <div class="card-body bg-red radius-bottom">
+                                <h5 class="card-title">Coca-Cola</h5>
+                                <p class="card-text">The usual, there used to be cocaine in these.</p>
+                            </div>
+                        </div>
+
+                        <div class="card hovereffect" data-container="body" data-toggle="popover" data-placement="top"
+                            data-content="When PHP is added, this will be added to the order onclick.">
+                            <img src="./assets/media/fanta.png" class="card-img-top" alt="...">
+                            <div class="card-body bg-red radius-bottom">
+                                <h5 class="card-title">Fanta</h5>
+                                <p class="card-text">Orange Coca-Cola with the flavor of an "orange".</p>
+                            </div>
+                        </div>
+                        <div class="card hovereffect" data-container="body" data-toggle="popover" data-placement="top"
+                            data-content="When PHP is added, this will be added to the order onclick.">
+                            <img src="./assets/media/sprite.png" class="card-img-top" alt="...">
+                            <div class="card-body bg-red radius-bottom">
+                                <h5 class="card-title">Sprite</h5>
+                                <p class="card-text"> Clear Coke. Why are we even explaining these? </p>
+                            </div>
+                        </div>
+                        <div class="card hovereffect" data-container="body" data-toggle="popover" data-placement="top"
+                            data-content="When PHP is added, this will be added to the order onclick.">
+                            <img src="./assets/media/fuze.png" class="card-img-top" alt="...">
+                            <div class="card-body bg-red radius-bottom">
+                                <h5 class="card-title">Fuze Tea</h5>
+                                <p class="card-text">For some reason Nestea doesn't exist anymore.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Forms -->
+    <form action="tracker.html"
+        class="d-flex justify-content-center align-items-center pb-7 row g-3 needs-validation pt-5" novalidate>
+        <div class="formorder shadow">
+            <div class="col-md-12 pt-3">
+                <label for="validationCustom01" class="form-label">Email</label>
+                <input type="text" class="form-control" id="validationCustom01" placeholder="emailexample@bimbla.com"
+                    required>
+                <div class="valid-feedback">
+                    Looks good!
+                </div>
+            </div>
+            <div class="col-md-12 pt-3">
+                <label for="validationCustom02" class="form-label">Address</label>
+                <input type="text" class="form-control" id="validationCustom02" placeholder="Some Place 123" required>
+                <div class="valid-feedback">
+                    Looks good!
+                </div>
+            </div>
+            <div class="col-md-12 pt-3">
+                <label for="validationCustom03" class="form-label">Number</label>
+                <input type="text" class="form-control" id="validationCustom03" placeholder="+385 91 234 5678" required>
+                <div class="valid-feedback">
+                    Looks good!
+                </div>
+            </div>
+            <div class="col-12 pt-3">
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="invalidCheck">
+                    <label class="form-check-label" for="invalidCheck">
+                        Non-contact delivery
+                    </label>
+                    <div class="invalid-feedback">
+                        You must agree before submitting.
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 pt-3">
+                <button class="btn btn-red" type="submit">Order & Track</button>
+            </div>
+        </div>
+    </form>
+
+    <footer class="bg-footer text-center text-white">
+        <!-- Grid container -->
+        <div class="container p-4 pb-0">
+            <!-- Section: Social media -->
+            <section class="mb-4">
+                <!-- Facebook -->
+                <a class="btn btn-red btn-floating m-1" href="https://www.facebook.com/karlo.longin/" role="button"><em
+                        class="fab fa-facebook-f"></em></a>
+                <!-- Youtube -->
+                <a class="btn btn-red btn-floating m-1" href="https://www.youtube.com/watch?v=zRGKZvY24YQ"
+                    role="button"><em class="fab fa-youtube"></em></a>
+                <!-- Instagram -->
+                <a class="btn btn-red btn-floating m-1" href="https://www.instagram.com/longinkarlo/" role="button"><em
+                        class="fab fa-instagram"></em></a>
+                <!-- Github -->
+                <a class="btn btn-red btn-floating m-1" href="https://github.com/klongin" role="button"><em
+                        class="fab fa-github"></em></a>
+            </section>
+            <!-- Section: Social media -->
+        </div>
+
+        <!-- Copyright -->
+        <div class="text-center p-3 bg-black">
+            © 2021 Copyright:
+            <a class="text-white" href="https://mdbootstrap.com/">Karlo Longin</a>
+        </div>
+        <!-- Copyright -->
+    </footer>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
+    </script>
+
+</body>

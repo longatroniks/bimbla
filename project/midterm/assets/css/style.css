@@ -1,0 +1,446 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+
+* {
+    font-family: "Montserrat", sans-serif;
+}
+
+html {
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+
+body {
+    max-width: 100%;
+    background-color: #fff3cb !important;
+}
+
+
+/* The side navigation menu */
+.sidenav {
+    height: 100%;
+    /* 100% Full-height */
+    width: 0;
+    /* 0 width - change this with JavaScript */
+    position: fixed;
+    /* Stay in place */
+    z-index: 2;
+    /* Stay on top */
+    top: 0;
+    /* Stay at the top */
+    left: 0;
+    background-color: #aa6100;
+    /* Black*/
+    overflow-x: hidden;
+    /* Disable horizontal scroll */
+    padding-top: 60px;
+    /* Place content 60px from the top */
+    transition: 0.5s;
+    /* 0.5 second transition effect to slide in the sidenav */
+}
+
+/* The navigation menu links */
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #ffffff;
+    display: block;
+    transition: 0.3s;
+}
+
+/* When you mouse over the navigation links, change their color */
+.sidenav a:hover {
+    color: #ff767691;
+    text-decoration: none;
+}
+
+/* Position and style the close button (top right corner) */
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+.navbar-toggler {
+    border: black !important;
+    padding: 10px !important;
+}
+
+.navbar-toggler:focus {
+    box-shadow: none !important;
+    outline: black !important;
+}
+
+/* Style page content - use this if you want to push the page content to the right when you open the side navigation */
+#main {
+    transition: margin-left .5s;
+    padding: 20px;
+}
+
+#menu {
+    z-index: 1;
+}
+
+#home2 {
+    display: none !important;
+}
+
+
+
+/* Bootstrap overrides and similar classes */
+.bg-red {
+    background-color: transparent;
+}
+
+.btn-red {
+    background-color: #ffffff !important;
+    color: #a72828 !important;
+    border-color: #a72828 !important;
+}
+
+.btn-red:hover {
+    color: #ffffff !important;
+    background-color: #a72828 !important;
+    border-color: #ffffff !important;
+}
+
+.py-5 {
+    padding-top: 15% !important;
+    padding-bottom: 20% !important;
+}
+
+.py-6 {
+    padding-top: 13% !important;
+    padding-bottom: 20% !important;
+}
+
+.pb-7 {
+    padding-bottom: 200px;
+}
+
+.container-fluid {
+    padding: 0px !important;
+}
+
+.w-85 {
+    width: 95% !important;
+}
+
+.my-4 {
+    background-color: #a72828 !important;
+}
+
+/* Card attributes
+.card-deck {
+    margin-right: 5% !important;
+    margin-left: 5% !important;
+}
+*/
+.card {
+    margin-right: 2% !important;
+    margin-left: 2% !important;
+    border-radius: 20px !important;
+}
+
+.card-body {
+    color: white;
+    background-color: #fbb03b;
+}
+
+.card-img-top {
+    border-radius: 20px 20px 0px 0px !important;
+}
+
+.border-brown {
+    border-color: #aa6100 !important;
+    border-width: 1px !important;
+}
+
+.btn {
+    border-radius: .5rem !important;
+}
+
+/* Carousel attributes */
+.carousel-caption {
+    color: black !important;
+}
+
+.carousel-control-prev-icon {
+    background-image: url("../media/arrow-left.png") !important;
+}
+
+.carousel-control-next-icon {
+    background-image: url("../media/arrow-right.png") !important;
+}
+
+.radius {
+    border-radius: 20px !important;
+}
+
+
+/* Jumbotron attributes */
+.jumbotron {
+    width: 70%;
+}
+
+/* Scroll bar */
+::-webkit-scrollbar {
+    width: 21px;
+}
+
+::-webkit-scrollbar-track {
+    background-color: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #ffca75;
+    border-radius: 20px;
+    border: 6px solid transparent;
+    background-clip: content-box;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background-color: #fbb03b;
+}
+
+
+
+/* Custom classes */
+.images img+img {
+    transform: scale(1);
+    opacity: 1;
+    z-index: 0;
+    transition: all 400ms ease-in-out;
+}
+
+.invis {
+    /*display: none !important;*/
+    transform: scale(0) !important;
+    z-index: -10;
+    opacity: 0 !important;
+}
+
+
+.visib {
+    display: initial !important;
+}
+
+.pizza {
+    width: 50vw;
+}
+
+.tile {
+    cursor: pointer;
+    height: 70px;
+    width: 70px;
+}
+
+.w-lg-50 {
+    width: 50% !important;
+}
+
+.progress-bar {
+    width: 0%;
+    transition-duration: 2s !important;
+}
+
+.full {
+    width: 100%;
+}
+
+.tracker-responsive {
+    min-width: 100%;
+}
+
+p {
+    margin-bottom: 0rem !important;
+}
+
+.bg-tracker {
+    border-radius: 10px;
+    background-color: #aa6100;
+    border: 2px !important;
+    padding: 30px;
+}
+
+.jumbobg {
+    background-color: #fbb03b !important;
+    color: white !important;
+    border-radius: 20px !important;
+}
+
+.makerborder {
+    padding: 20px;
+    background-image: url("../media/board.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 20px;
+
+}
+
+.formorder {
+    padding: 20px;
+    width: 50%;
+    background-color: #ffca75;
+    border-radius: 20px !important;
+}
+
+.bg-footer {
+    background-color: #fbb03b;
+}
+
+.bg-brown {
+    background-color: #aa6100 !important;
+    border-radius: 20px 20px 0px 0px !important;
+}
+
+.bg-formcareer {
+    background-color: #ffca75 !important;
+    border-radius: 20px !important;
+}
+
+.bg-red {
+    background-color: #a72828 !important;
+}
+
+.bg-lightbrown {
+    background-color: #fff3cb !important;
+}
+
+.radius-bottom {
+    border-radius: 0px 0px 20px 20px !important;
+}
+
+#smallsimbla {
+    display: none !important;
+}
+
+#bigsimbla {
+    display: initial !important;
+}
+
+.hovereffect:hover {
+    filter: brightness(75%);
+    transition: 0.5s;
+}
+
+.bg-black {
+    background-color: rgba(0, 0, 0, 0.2) !important;
+}
+
+.bg-icons {
+    background-color: #aa6100;
+}
+
+.jumbotron {
+    position: relative;
+    overflow: hidden;
+    background-color: black;
+}
+
+.jumbotron__background {
+    position: absolute;
+    z-index: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 0.15;
+}
+
+.jumbotron .container {
+    z-index: 0;
+    position: relative;
+}
+
+
+.columncareer {
+    flex-direction: row;
+}
+
+.pt-7 {
+    padding-top: 200px;
+}
+
+.pt-8 {
+    padding-top: 0px;
+}
+
+
+/* Media query for phone */
+@media only screen and (max-width: 700px) {
+    .sidenav {
+        padding-top: 15px;
+    }
+
+    .sidenav a {
+        font-size: 18px;
+    }
+
+    .w-lg-50 {
+        width: 85% !important;
+    }
+
+    #saveme {
+        display: none !important;
+    }
+
+    #home2 {
+        display: initial !important;
+    }
+
+    .phonehome {
+        padding-top: 250px !important;
+        padding-bottom: 250px !important;
+    }
+
+    p {
+        font-size: 100% !important;
+    }
+
+    .jumbotron {
+        width: 85% !important;
+    }
+
+    .overridewidth {
+        width: 100% !important;
+    }
+
+    .formorder {
+        width: 85%;
+    }
+
+    .card-deck {
+        display: -ms-flexbox !important;
+        display: flex !important;
+        -ms-flex-direction: column !important;
+        flex-direction: column !important;
+    }
+
+    .tracker-responsive {
+        min-width: 75%;
+    }
+
+    #smallsimbla {
+        display: initial !important;
+    }
+
+    #bigsimbla {
+        display: none !important;
+    }
+
+    .columncareer {
+        flex-direction: column;
+    }
+
+    .pt-7 {
+        padding-top: 0px;
+    }
+
+    .pt-8 {
+        padding-top: 100px;
+    }
+
+}
